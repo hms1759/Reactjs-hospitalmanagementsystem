@@ -1,0 +1,31 @@
+
+.page-breadcrumb {
+    padding: 250px 0 150px;
+    background: url(https://www.swaggermagazine.com/home/wp-content/uploads/2019/06/TheW-nightlife.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+}
+.aboutUs-title{
+	position: relative;
+	z-index: 2;
+}
+.aboutUs-title-::before{
+	background: #010101;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.8;	
+}
+.aboutUs-title h1{
+	font-size: 38px;
+	color:white;
+	font-family: 'Arbutus Slab', serif;
+	padding: 0px;
+    text-shadow: -1px -3px 10px black;
+}

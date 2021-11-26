@@ -1,0 +1,27 @@
+.slider_container {
+    margin: 0;
+    padding:0 10px;
+    height: 100vh;
+  }
+  
+  
+  .image{
+    
+    width: 100vw;
+  
+  }
+ 
+  .time{
+    color: black;
+  }
+ 
+  .dot{
+    
+    color: white;
+  }
+  .test{
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+}

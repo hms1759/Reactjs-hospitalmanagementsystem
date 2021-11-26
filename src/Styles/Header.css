@@ -1,0 +1,113 @@
+HEADER
+.top-navbar{
+	position: relative;
+	z-index: 10;
+}
+
+.top-navbar .navbar{
+    
+    background-color: black!important;
+	padding: 15px 0px;
+	position: fixed;
+	width: 100%;
+        transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 100;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-link
+{
+	color: #faf7f7;
+	font-size: 20px;
+	padding:3px 10px;
+	margin:0px 1px;
+	border-radius: 4px;
+}
+
+.nav-link.a {
+	color: red;
+	text-decoration: none !important;
+}
+.nav-cont{
+	justify-content: space-between;
+}
+.hdcenter{
+	justify-content: space-between ;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover
+{
+	text-decoration: none !important;
+	border-radius: 4px;
+	background: #dda862;
+	color: #f8ebeb;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
+	background: #d0a772;
+	color: #ffffff;
+	border-radius: 4px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+	border: none;
+	 box-shadow: 2px 5px 6px rgba(0,0,0,0.5);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
+	background: #d0a772;
+	color: #ffffff;
+}
+.navbar-light .navbar-toggler{
+	background: #cfa671;
+}
+.navbar-light .navbar-toggler:hover{
+	background: #5c3a0e;
+    color: white;
+}
+/* Header home  */
+/* homepage About  */
+
+.btn{
+	text-transform: uppercase;
+	padding: 19px 36px;
+}
+.btn{
+	display: inline-block;
+	font-weight: 600;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 2px solid transparent;
+	padding: 12px 30px;
+	font-size: 16px;
+	line-height: 1.5;
+	border-radius: .1875rem;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.btn-outline-new-white {
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #cfa671;
+}
+.btn-outline-new-white:hover {
+    color: #ffffff;
+    background-color: #cfa671;
+    border-color: #cfa671;
+}
+
+.overlay-background {
+    background: #333;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+	opacity: 0.5;
+}
+
+/* homepage About  */

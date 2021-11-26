@@ -1,0 +1,28 @@
+
+[
+    {
+        "title": "First Slide",
+        "Urls" : "https://silkroaddreamtours.com/wp-content/uploads/2019/11/HardRockHotelSG-Exterior.jpg",
+        "description" : "This is my firs slide content"
+
+    },
+
+    {
+        "title": "Second Slide",
+        "Urls" :  "https://www.princehotels.com/wp-content/uploads/2019/04/aboutslider2-1.jpg",
+        "description" : "This is my firs slide content"
+
+    },
+
+
+    
+    {
+        "title": "Third Slide",
+        "Urls" :  "https://capitalhotelgroup.imgix.net/6f66bda88f341140dd87cf7b246fb5bf/5799aa14c65393.99619895.jpg?auto=format&crop=&fit=crop&h=650&ixlib=php-1.1.0&q=60&w=1600&s=9f1dda92007c9f152f07776b22e918a1",
+        "description" : "This is my firs slide content"
+
+    }
+    
+    
+
+]
