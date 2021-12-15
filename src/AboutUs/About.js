@@ -3,6 +3,7 @@ import Contact from '../Contact/contact'
 import AboutUs from './aboutUs'
 import  Header from '../shared/Header'
 import  Footer from '../shared/Footer'
+
 function About(){
     return(
         <div>
